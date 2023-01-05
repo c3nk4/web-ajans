@@ -325,6 +325,10 @@ footer i {
     .navbar-toggler {
         border: none;
     }
+    
+    #myBtn {
+        border-radius: 0;
+    }
       
     .kolon {
         margin-top: 105px;

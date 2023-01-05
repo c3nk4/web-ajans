@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,400;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css");
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.index .navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 500;
+}
+
+.index .navbar .navbar-nav .nav-link:hover {
+    color: #1484df;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #000;
+    font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #1484df;
+}
+
+.index .navbar .navbar-nav .active>.nav-link {
+    color: #fff;
+}
+
+.navbar .navbar-nav .active>.nav-link {
+    color: #004eff;
+}
+
+.btn-left {
+    margin-right: 7px;
+    padding: 0 41px;
+    background: rgb(253 28 28);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    line-height: 54px;
+    text-align: center;
+    border: rgb(253 28 28);
+}
+
+.btn-left:hover {
+    background-color: rgb(14, 143, 78);
+}
+
+.btn-right {
+    padding: 0 41px;
+    background-color: rgb(0 60 231);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    line-height: 54px;
+    text-align: center;
+    border: rgb(0 60 231);
+}
+
+.btn-right:hover {
+    background-color: rgb(14, 143, 78);
+}
+
+.bg-beyaz {
+    background: rgba(255, 255, 255, 0.945);
+}
+
+.py-12 {
+    padding: 120px 0;
+}
+
+.py-15 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.mt-6 {
+    margin-top: 110px;
+}
+
+#indexBanner {
+    color: #fff;
+    background: linear-gradient(180deg, #2d2db0 -65%, #2c8cf4 110%);
+    margin-top: -72px;
+    padding-top: 2rem;
+    padding-bottom: 120px;
+}
+
+#indexBanner h1 {
+    font-size: 56px;
+    font-weight: 300;
+}
+
+#indexBanner p {
+    font-weight: 300;
+}
+
+#indexBanner img {
+    margin-top: 25px;
+}
+
+.kolon {
+    margin-top: 105px;
+}
+
+#hizmetler .card .lead {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#hizmetler {
+    margin-top: -90px;
+}
+
+.nasil i {
+    display: flex;
+    color: #fff;
+    background-color: #2294f1;
+    width: 75px;
+    height: 75px;
+    font-size: 30px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.nasil .card h4 {
+    font-weight: 600;
+    margin-top: 20px
+}
+
+.nasil .card {
+    text-align: left;
+}
+
+.shape svg {
+    fill: #fff;
+    position: relative;
+    top: -130px;
+    transform: rotateY(180deg)
+}
+
+.nasil .card {
+    border-bottom: 2px solid #2294f1;
+
+    padding: 15px;
+}
+
+#cta {
+    background-image: url(../img/slider-background-1500x1000px.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+#cta span {
+    font-size: 30px;
+    font-weight: 300;
+    color: #000;
+}
+
+.display-5 {
+    font-size: 30px;
+}
+
+#kurumsalBanner {
+    background-image: url(../img/kurumsal-banner-1500x600px.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 300px;
+}
+
+#projelerBanner {
+    background-image: url(../img/projeler-gorsel-1500x600px.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+#hizmetlerBanner {
+    background-image: url(../img/hizmetler-banner-1500x600px.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+#blogPage {
+    background-image: url(../img/blog-banner-1500x600px.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+#blogList a {
+
+    text-decoration: none;
+    color: #000;
+}
+
+.card {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 40px;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, .1);
+    transition: all .3s ease-in-out;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.nasil .card:hover {
+    transform: translateY(-10px);
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 999;
+    border: none;
+    outline: none;
+    background-color: rgba(229, 21, 21, 0.795);
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+.cizgi {
+    width: 55px;
+    height: 2px;
+    background-color: #1484df;
+}
+
+#form {
+    color: #000;
+    font-weight: 900;
+}
+
+#blog .card-header {
+    background-color: #fff;
+}
+
+#projelerContent img {
+    height: 232px;
+    width: 350px;
+    cursor: pointer;
+}
+
+.cap {
+    position: relative;
+    padding: inherit;
+    top: -30px;
+    color: #fff;
+    background-color: #1484dfe8;
+    cursor: pointer;
+}
+
+#footer,
+#footer a,
+footer i {
+    background: #183153;
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer .bis {
+    font-size: 32px;
+}
+
+.ref img {
+    width: 100px;
+    height: 100px;
+    animation: scroll 60s linear infinite;
+}
+
+.slide-track {
+    width: 100%;
+    display: flex;
+    gap: 3em;
+    overflow: hidden;
+}
+
+.ref .slider {
+    margin-top: 30px;
+    background-color: whitesmoke;
+    padding: 4em 2em;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translatex(-1000%)
+    }
+    
+}
+
+/* mobil css --------------------------*/
+
+@media (max-width:767px) {
+
+    .navbar .navbar-nav .active>.nav-link {
+        color: #1484df;
+    }
+
+    .index .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+      
+    .kolon {
+        margin-top: 105px;
+    }
+
+    #indexBanner h1 {
+        margin-top: -25px !important;
+        font-size: 25px !important;
+    }
+
+    #indexBanner p {
+        text-align: justify;
+        margin-bottom: 10px !important;
+    }
+
+    #indexBanner img {
+        width: 360px;
+        margin-top: 35px;
+        margin-left: 8px;
+    }
+
+    .index.bg-beyaz {
+        background: linear-gradient(178deg, #2d2db0 -5%, #2c8cf4 210%) !important;
+    }
+
+    #indexBanner button {
+        margin-bottom: 4px !important;
+        margin-top: 20px !important;
+        margin-right: 10px !important;
+        padding: 0 20px;
+    }
+
+    .shape svg {
+        top: -39px;
+    }
+
+    #kurumsalContent img {
+        width: 100% !important;
+    }
+
+    #hizmetler .card {
+        box-shadow: none;
+    }
+
+    #hizmetler {
+        border-top: none !important;
+        margin-top: -55px;
+    }
+
+    #hizmetler .kart {
+        margin-top: -15px !important;
+        margin-bottom: 25px !important;
+    }
+
+    #nasil .card {
+        margin-top: 10px !important;
+        box-shadow: none;
+    }
+
+    .carousel-item>img {
+        filter: brightness(0%);
+        height: 460px;
+    }
+
+    #nasil .col-md-5 {
+        width: 30%;
+    }
+
+    #nasil .col-md-7 {
+        width: 70%;
+    }
+
+    #nasil .kod {
+        margin-top: -13px !important;
+    }
+
+    #cta span {
+        font-size: calc(150%);
+    }
+
+    #cta .btn {
+        margin-top: 10px;
+
+    }
+
+    #cta {
+        background-size: inherit;
+
+    }
+
+    #blog .card {
+        margin-top: 20px;
+    }
+
+    #footerIcons i {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+
+    #projelerContent img {
+        width: 382px;
+    }
+
+    #ekibimiz .ekipmob {
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+    }
+
+
+    #ekibimiz .ekipmob2 {
+        margin-top: 55px !important;
+        margin-bottom: 55px !important;
+    }
+
+    #ekibimiz .ekipmehmet {
+        margin-top: 10px !important;
+        margin-bottom: 80px !important;
+    }
+
+    #musteriYorum .yorum {
+        margin-top: -25px !important;
+    }
+
+    .projeModal {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .projeModalUst {
+        margin-top: -90px !important;
+
+    }
+
+    .market {
+        margin-top: 0px !important;
+
+    }
+
+    #cta span {
+        font-size: calc(141%);
+    }
+
+    #blogList .bflex {
+        display: inline-flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    #blogList .kategori {
+        margin-bottom: 15px !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+
+    .hizmetModal {
+        margin-top: 55px !important;
+        margin-bottom: 55px !important;
+    }
+
+    .hizmetModalUst {
+        margin-top: -45px !important;
+
+    }
+
+    #footer .col-md-4:nth-child(2) {
+    margin-top: 30px;
+    margin-bottom: 30px;
+   }
+}
+
+/* Tablet-----------------------------*/
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+
+    #indexBanner img {
+        margin-top: 74px;
+    }
+
+    .index.bg-beyaz {
+        background: linear-gradient(178deg, #2d2db0 -5%, #2c8cf4 210%) !important;
+    }
+
+    #indexBanner h1 {
+        font-size: 45px;
+    }
+
+    .btn-left,
+    .btn-right {
+        padding: 0 8px;
+    }
+
+    .shape svg {
+        top: -77px;
+    }
+
+    #hizmetler h2 {
+        font-size: 23px;
+    }
+
+    #hizmetler p {
+        text-align: center !important;
+    }
+
+    #hizmetler img {
+        width: auto !important;
+    }
+
+    #hizmetler .card {
+        padding: 20px;
+    }
+
+    #nasil .col-md-3 {
+        flex: 1 0 52%;
+        width: 200px;
+        max-width: 33%;
+    }
+
+    #nasil .col-md-3:first-child h4 {
+        font-size: 23px;
+    }
+
+    #cta {
+        background-size: initial;
+
+    }
+
+    #ekibimiz {
+        display: none;
+    }
+
+    .carousel-caption {
+        top: 11px;
+    }
+
+    .carousel-caption .btn {
+        display: none;
+    }
+
+    #kurumsalContent img {
+        margin-top: 54px;
+    }
+
+    #blog .row {
+        justify-content: center;
+    }
+
+    #blog .col-md-3 {
+        flex: 2 0 25%;
+        max-width: 40%;
+    }
+}

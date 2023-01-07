@@ -139,6 +139,7 @@ body {
 
 .shape svg {
     fill: #fff;
+    border-bottom: 7px solid #fff;
     position: relative;
     top: -130px;
     transform: rotateY(180deg)

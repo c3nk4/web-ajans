@@ -86,7 +86,7 @@ body {
     background: linear-gradient(180deg, #2d2db0 -65%, #2c8cf4 110%);
     margin-top: -72px;
     padding-top: 2rem;
-    padding-bottom: 120px;
+    padding-bottom: 133px;
 }
 
 #indexBanner h1 {
@@ -141,7 +141,7 @@ body {
     fill: #fff;
     border-bottom: 7px solid #fff;
     position: relative;
-    top: -130px;
+    top: -139px;
     transform: rotateY(180deg)
 }
 

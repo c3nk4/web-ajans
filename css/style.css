@@ -139,7 +139,7 @@ body {
 
 .shape svg {
     fill: #fff;
-    border-bottom: 7px solid #fff;
+    border-bottom: 37px solid #fff;
     position: relative;
     top: -139px;
     transform: rotateY(180deg)
@@ -522,7 +522,7 @@ footer i {
     }
 
     .shape svg {
-        top: -77px;
+        top: -75px;
     }
 
     #hizmetler h2 {

@@ -83,10 +83,11 @@ body {
 
 #indexBanner {
     color: #fff;
-    background: linear-gradient(180deg, #2d2db0 -65%, #2c8cf4 110%);
+    background: linear-gradient(180deg, #2d2db0 -5%, #2c8cf4 83%);
     margin-top: -72px;
     padding-top: 2rem;
     padding-bottom: 133px;
+    height: 100vh;
 }
 
 #indexBanner h1 {
@@ -113,7 +114,7 @@ body {
 }
 
 #hizmetler {
-    margin-top: -90px;
+    margin-top: -10px;
 }
 
 .nasil i {
@@ -138,6 +139,7 @@ body {
 }
 
 .shape svg {
+    display: none;
     fill: #fff;
     border-bottom: 37px solid #fff;
     position: relative;

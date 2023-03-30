@@ -96,6 +96,8 @@ body {
 }
 
 #indexBanner p {
+    margin-top: 25px;
+    margin-bottom: 40px;
     font-weight: 300;
 }
 

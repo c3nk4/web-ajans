@@ -42,6 +42,7 @@ body {
     line-height: 54px;
     text-align: center;
     border: rgb(253 28 28);
+    transition: .4s;
 }
 
 .btn-left:hover {
@@ -58,6 +59,7 @@ body {
     line-height: 54px;
     text-align: center;
     border: rgb(0 60 231);
+    transition: .4s;
 }
 
 .btn-right:hover {
